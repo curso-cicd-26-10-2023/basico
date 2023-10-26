@@ -1,11 +1,10 @@
 name: 'Hello World'
-description: 'Greet someone and record the time'
 
 on:
   push:
-      branches: ["main"]
-  pull-request:
-      branches: ["main"] 
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
 
 jobs:
 
